@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+    padding-top: 4rem; 
+  }
+/* Hover para WhatsApp */
+.hover\:bg-whatsapp:hover {
+  background-color: #66B75C; /* Verde um pouco mais escuro do WhatsApp */
+}
+
+/* Hover para Instagram */
+.hover\:bg-instagram:hover {
+  background-color: #D86A77; /* Rosa/vermelho um pouco mais escuro do Instagram */
+}
+
+/* Hover para Facebook */
+.hover\:bg-facebook:hover {
+  background-color: #7B9ACD; /* Azul um pouco mais escuro do Facebook */
+}
+
+/* Hover para LinkedIn */
+.hover\:bg-linkedin:hover {
+  background-color: #4A7C9C; /* Azul um pouco mais escuro do LinkedIn */
+}
