@@ -20,9 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <Header />
-      <body>{children}</body>
-      <Footer />
+      
+      <body className="min-h-screen w-full flex flex-col"><Header />{children}<Footer /></body>
+      
     </html>
   );
 }
