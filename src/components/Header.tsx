@@ -1,6 +1,6 @@
 "use client";
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -10,17 +10,17 @@ const Header = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <header
       className={`bg-red-950 p-4 fixed w-full z-50 top-0 left-0 transition-opacity duration-300 backdrop-blur-xl ${
-        isScrolled ? 'bg-opacity-80' : 'bg-opacity-100'
+        isScrolled ? "bg-opacity-80" : "bg-opacity-100"
       }`}
     >
       <div className="container font-merriweather mx-auto flex justify-between items-center">
@@ -40,11 +40,7 @@ const Header = () => {
                 Início
               </Link>
             </li>
-            <li>
-              <Link href="/posts" className="text-white hover:text-gray-400">
-                Posts
-              </Link>
-            </li>
+
             <li>
               <Link href="/contatos" className="text-white hover:text-gray-400">
                 Contatos
