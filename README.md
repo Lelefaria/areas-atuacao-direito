@@ -19,4 +19,4 @@ Este projeto é um blog simples e moderno desenvolvido com as tecnologias mais r
 ## Desenvoldevor
 Leanderson Faria  
 GitHub: [@Lelefaria](https://github.com/Lelefaria)  
-LinkedIn: [Leanderson Fregulia](https://www.linkedin.com/in/leanderson-nascimento/)
+LinkedIn: [Leanderson Faria](https://www.linkedin.com/in/leanderson-nascimento/)
